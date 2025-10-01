@@ -1,6 +1,6 @@
 {
   "name": "com.loli-ptitch.gamesdk.yandex-metrica-web",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "Yandex Metrica Web Provider",
   "description": "Unity package to integrate Yandex Metrica Web SDK with GameSDK.",
   "repository": {

@@ -24,7 +24,8 @@
                 this.DebugMode = dataObj.DebugMode || false;
 
                 this.log("YaMetrica initialized with CounterId:", this.CounterId);
-                if (callback) dynCall('v', callback, []);
+                if (callback)
+                    {{{ makeDynCall('v', 'callback') }}}()
             } catch (error) {
                 console.error("Error initializing YaMetrica:", error);
             }
